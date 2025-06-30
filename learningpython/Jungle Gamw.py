@@ -1,7 +1,7 @@
 import random
 
 def get_random_word():
-    words = ['python', 'developer', 'hangman', 'jumble', 'learning', 'project', 'school', 'keyboard']
+    words = ['python', 'developer', 'jumble', 'learning', 'project', 'school', 'keyboard']
     return random.choice(words)
 
 def jumble_word(word):
